@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryJunk", "RaspberryJunk\RaspberryJunk.csproj", "{2DA950E5-976F-4589-978A-2C8F17B25FDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpioServer", "GpioServer\GpioServer.csproj", "{464A3CF9-329B-4B5D-A123-4C4105AA5C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpioClient", "GpioClient\GpioClient.csproj", "{9B3653B0-17F4-4CC2-B0DF-730D7871E7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bcm2835", "Bcm2835\Bcm2835.csproj", "{45997D1C-E8F8-4EA0-A591-D6477E95834A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DA950E5-976F-4589-978A-2C8F17B25FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DA950E5-976F-4589-978A-2C8F17B25FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DA950E5-976F-4589-978A-2C8F17B25FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DA950E5-976F-4589-978A-2C8F17B25FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464A3CF9-329B-4B5D-A123-4C4105AA5C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464A3CF9-329B-4B5D-A123-4C4105AA5C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464A3CF9-329B-4B5D-A123-4C4105AA5C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464A3CF9-329B-4B5D-A123-4C4105AA5C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3653B0-17F4-4CC2-B0DF-730D7871E7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3653B0-17F4-4CC2-B0DF-730D7871E7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3653B0-17F4-4CC2-B0DF-730D7871E7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3653B0-17F4-4CC2-B0DF-730D7871E7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45997D1C-E8F8-4EA0-A591-D6477E95834A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45997D1C-E8F8-4EA0-A591-D6477E95834A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45997D1C-E8F8-4EA0-A591-D6477E95834A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45997D1C-E8F8-4EA0-A591-D6477E95834A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
